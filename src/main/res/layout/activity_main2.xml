@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".Main2Activity">
+
+
+        <Button
+            android:id="@+id/openUploadActivityBtn"
+            style="?android:attr/button"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="96dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Add New"
+            android:background="@color/colorPrimary"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/openActivityBtn"
+            style="?android:attr/button"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="224dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            android:text="View All"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/Video"
+            style="?android:attr/button"
+            android:layout_width="353dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="352dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            android:text="Video"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/json"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="480dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            android:text="World stats of corona virus"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/chat"
+            style="?android:attr/button"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="610dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            android:text="chat"
+            android:textSize="20dp" />
+
+
+
+
+</RelativeLayout>

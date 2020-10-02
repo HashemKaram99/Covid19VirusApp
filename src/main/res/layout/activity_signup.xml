@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton_json"
+        android:layout_width="351dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/signupBtn"
+        android:layout_width="116dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="60dp"
+        android:text="signup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordEd"
+        app:layout_constraintVertical_bias="0.074"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/passwordEd"
+        android:layout_width="307dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/usernameEd"
+        app:layout_constraintStart_toStartOf="@+id/usernameEd"
+        app:layout_constraintTop_toBottomOf="@+id/usernameEd"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/usernameEd"
+        android:layout_width="312dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:hint="email@gmail.com"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_json"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="41dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
