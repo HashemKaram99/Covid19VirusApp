@@ -37,7 +37,7 @@ jobs:
     # Filtering mode for the reviewdog command [added, diff_context, file, nofilter].
 Default is added.
 
-        filter_mode: # optional, default is added
+         filter_mode: # optional, default is added
     # Exit code for reviewdog when errors are found [true, false]
 Default is `false`.
 
